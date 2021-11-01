@@ -1,14 +1,16 @@
-import {Entity, model, property} from '@loopback/repository';
+import {Entity, hasMany, model, property} from '@loopback/repository';
+import {PilzLocation} from './pilz-location.model';
+
+
 
 @model()
 export class Pilz extends Entity {
   @property({
     type: 'number',
     id: true,
-    generated: true,
+    generated: false,
   })
   pilzID?: number;
-
   @property({
     type: 'string',
     required: true,
@@ -30,6 +32,8 @@ export class Pilz extends Entity {
   })
   feature2?: string;
 
+  @hasMany(() => PilzLocation)
+  pilzLocations: PilzLocation[];
 
   constructor(data?: Partial<Pilz>) {
     super(data);
@@ -37,7 +41,7 @@ export class Pilz extends Entity {
 }
 
 export interface PilzRelations {
-  // describe navigational properties here
+  pilzLocation?:
 }
 
 export type PilzWithRelations = Pilz & PilzRelations;
