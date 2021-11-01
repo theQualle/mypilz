@@ -1,0 +1,14 @@
+{
+  "ids": {
+    "Pilz": 5
+  },
+  "models": {
+    "Pilz": {
+      "1": "{\"name\":\"Fliegenpilz\",\"description\":\"Rot weisser pilz\",\"id\":1,\"feature1\":\"feature1\",\"feature2\":\"feature2\"}",
+      "2": "{\"name\":\"Fliegenpilz2\",\"description\":\"Rot weisser pilz\",\"id\":2,\"feature1\":\"feature1\",\"feature2\":\"feature2\"}",
+      "3": "{\"name\":\"Fliegenpilz3\",\"description\":\"Rot weisser pilz\",\"id\":3,\"feature1\":\"feature1\",\"feature2\":\"feature2\"}",
+      "4": "{\"name\":\"Fliegenpilz4\",\"description\":\"Rot weisser pilz\",\"id\":4,\"feature1\":\"feature1\",\"feature2\":\"feature2\"}",
+      "5": "{\"name\":\"Fliegenpilz5\",\"description\":\"Rot weisser pilz\",\"id\":5,\"feature1\":\"feature1\",\"feature2\":\"feature2\"}"
+    }
+  }
+}
